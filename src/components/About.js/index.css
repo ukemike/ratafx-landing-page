@@ -1,0 +1,120 @@
+.about_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13rem;
+    overflow: hidden;
+}
+
+.about_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 16rem;
+    margin-bottom: 2rem;
+}
+
+.about_text h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+    color: #263238;
+    margin-bottom: 10px;
+}
+
+.about_text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #717A82;
+    width: 450px;
+}
+
+.about_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.about_card_item {
+    width: 340px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: -2px 0px 15px rgba(181, 176, 176, 0.15);
+    border-radius: 3px;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}
+
+.about_card_item img {
+    margin-bottom: 20px;
+}
+
+.about_card_item h3 {
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    color: #263238;
+    margin-bottom: 10px;
+}
+
+.about_card_item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #898CA9;
+    margin-bottom: 20px;
+}
+
+.about_card_item button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 20px;
+    background: none;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #005CEE;
+}
+
+
+@media (max-width: 920px) {
+    .about_section {
+        margin-top: 3rem;
+    }
+
+    .about_text {
+        padding: 0 1rem;
+    }
+
+    .about_text h1 {
+    font-size: 26px;
+    width: 268px;
+    }
+    
+    .about_text p {
+        width: 279px;
+    }
+
+    .about_cards {
+        flex-direction: column;
+        width: 100%;
+    }
+}
